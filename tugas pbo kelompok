@@ -1,0 +1,26 @@
+class Handphone:
+  def __init__(self, merk, model, harga):
+      self.merk= merk
+      self.model = model
+      self.harga = harga
+  
+  def turn_off(self):
+    print(f"Untuk menghidupkan HP {self.merk} model {self.model} harga {self.harga},dengan menekan tombol power beberapa saat")
+
+  def turn_on(self):
+    print(f"Saya mempunyai HP merk {self.merk} model {self.model} dengan harga {self.harga},untuk mematikannya dengan menekan tombol power")
+    
+  def panggilan(self):
+    print(f"Saya akan melakukan panggilan telepon menggunakan HP {self.merk} model {self.model} dengan harga {self.harga}")
+
+hp1 = Handphone("Samsung","Galaxy","1 juta")
+
+hp2 = Handphone("Xiaomi","Poco","2 juta")
+
+hp3 = Handphone("Xiaomi","Mi","3 juta")
+
+hp1.turn_on()
+print()
+hp2.turn_off()
+print()
+hp3.panggilan() 
