@@ -1,0 +1,28 @@
+class Person:
+    def __init__(self, name, nim):
+        self.__name = name
+        self.__nim = nim
+    
+    def get_name(self):
+        return self.__name
+    
+    def set_name(self, name):
+        self.__name = name
+    
+    def get_nim(self):
+        return self.__nim
+    
+    def set_nim(self, nim):
+        self.__nim = nim
+
+
+person = Person("Hesti", 'A710220017')
+print(person.get_name()) 
+print(person.get_nim()) 
+print()
+person.set_name("Ayu")
+person.set_nim('A710220017')
+
+
+print(person.get_name()) 
+print(person.get_nim()) 
