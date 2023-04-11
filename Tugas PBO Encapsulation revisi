@@ -1,0 +1,130 @@
+class Handphone:
+    def __init__(self, merk, model, harga):
+        self.__merk = merk
+        self.__model = model
+        self.__harga = harga
+
+    # getter untuk merk
+    def get_merk(self):
+        return self.__merk
+
+    # setter untuk merk
+    def set_merk(self, merk):
+        self.__merk = merk
+
+    # getter untuk model
+    def get_model(self):
+        return self.__model
+
+    # setter untuk model
+    def set_model(self, model):
+        self.__model = model
+
+    # getter untuk harga
+    def get_harga(self):
+        return self.__harga
+
+    # setter untuk harga
+    def set_harga(self, harga):
+        self.__harga = harga
+
+    def turn_off(self):
+        print(f"Untuk menghidupkan HP {self.__merk} model {self.__model} harga {self.__harga},dengan menekan tombol power beberapa saat")
+
+    def turn_on(self):
+        print(f"Saya mempunyai HP merk {self.__merk} model {self.__model} dengan harga {self.__harga},untuk mematikannya dengan menekan tombol power")
+
+    def panggilan(self):
+        print(f"Saya akan melakukan panggilan telepon menggunakan HP {self.__merk} model {self.__model} dengan harga {self.__harga}")
+
+
+# membuat objek baru
+hp1 = Handphone("Samsung", "Galaxy", "1 juta")
+class Handphone:
+    def __init__(self, merk, model, harga):
+        self.__merk = merk
+        self.__model = model
+        self.__harga = harga
+
+    # getter untuk merk
+    def get_merk(self):
+        return self.__merk
+
+    # setter untuk merk
+    def set_merk(self, merk):
+        self.__merk = merk
+
+    # getter untuk model
+    def get_model(self):
+        return self.__model
+
+    # setter untuk model
+    def set_model(self, model):
+        self.__model = model
+
+    # getter untuk harga
+    def get_harga(self):
+        return self.__harga
+
+    # setter untuk harga
+    def set_harga(self, harga):
+        self.__harga = harga
+
+    def turn_off(self):
+        print(f"Untuk menghidupkan HP {self.__merk} model {self.__model} harga {self.__harga}, dengan menekan tombol power beberapa saat")
+
+    def turn_on(self):
+        print(f"Saya mempunyai HP merk {self.__merk} model {self.__model} dengan harga {self.__harga}, untuk mematikannya dengan menekan tombol power")
+
+    def panggilan(self):
+        print(f"Saya akan melakukan panggilan telepon menggunakan HP {self.__merk} model {self.__model} dengan harga {self.__harga}")
+
+
+# membuat objek hp1
+hp1 = Handphone("Samsung", "Galaxy", "1 juta")
+# mengakses atribut menggunakan getter
+print("Merk HP1:", hp1.get_merk())
+print("Model HP1:", hp1.get_model())
+print("Harga HP1:", hp1.get_harga())
+
+# mengubah atribut menggunakan setter
+hp1.set_merk("Nokia")
+hp1.set_model("Lumia")
+hp1.set_harga("800 ribu")
+
+# mengakses atribut setelah diubah menggunakan setter
+print("Merk HP1 setelah diubah:", hp1.get_merk())
+print("Model HP1 setelah diubah:", hp1.get_model())
+print("Harga HP1 setelah diubah:", hp1.get_harga())
+
+# membuat objek hp2
+hp2 = Handphone("Xiaomi", "Poco", "2 juta")
+
+print("Merk HP2:", hp2.get_merk())
+print("Model HP2:", hp2.get_model())
+print("Harga HP2:", hp2.get_harga())
+
+# mengubah atribut menggunakan setter
+hp1.set_merk("Samsung")
+hp1.set_model("A33")
+hp1.set_harga("5 juta")
+
+# mengakses atribut setelah diubah menggunakan setter
+print("Merk HP2 setelah diubah:", hp2.get_merk())
+print("Model HP2 setelah diubah:", hp2.get_model())
+print("Harga HP2 setelah diubah:", hp2.get_harga())
+
+hp3 = Handphone("Xiaomi", "Mi", "3 juta")
+print("Merk HP3:", hp3.get_merk())
+print("Model HP3:", hp3.get_model())
+print("Harga HP3:", hp3.get_harga())
+
+# mengubah atribut menggunakan setter
+hp1.set_merk("Iphone")
+hp1.set_model("14PM")
+hp1.set_harga("20 juta")
+
+# mengakses atribut setelah diubah menggunakan setter
+print("Merk H3 setelah diubah:", hp3.get_merk())
+print("Model HP3 setelah diubah:", hp3.get_model())
+print("Harga HP3 setelah diubah:", hp3.get_harga())
